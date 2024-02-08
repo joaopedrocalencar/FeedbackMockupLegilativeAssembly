@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text for general readability */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Adding styles for the nav bar/header */
+.navbar {
+    background-color: #005B26; /* Dark green for the nav bar */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.feedback-list div {
+    background-color: #e9ecef; /* Light blue/grey background for feedback items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da; /* Light grey border for form inputs */
+}
+
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #005B26; /* Dark green, applied to the button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #00491E; /* A slightly darker green for hover effect */
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005B26; 
+    color: white;
+    padding: 10px 20px;
+    font-weight: 550;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 50px; 
+    margin-right: 10px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a:hover, .search-button:hover {
+    text-decoration: underline;
+}
+
+.search-button {
+    font-size: 1.5rem;
+    font-weight: bold; /* Keep text bold */
+    color: white;
+    background: none;
+    border: 1.6px solid rgb(255, 255, 255); /* Add a white border */
+    padding: 12px 17px; /* Adjust padding as needed */
+    cursor: pointer;
+    margin-left: 10px; /* Adjust spacing as previously set */
+}
+
+.search-button:hover {
+    background-color: #00491E; /* Optional: Change background on hover */
+}
+
+.navbar-links a, .search-button {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px; /* Increased left margin */
+    margin-right: 30px; /* Optionally, add right margin if needed */
+    background: none;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+.site-footer {
+    background-color: #2b4535; /* Darker shade of green for contrast */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.footer-content p, .footer-links a {
+    color: white; /* Ensures text and links are visible against the footer background */
+    margin: 5px 0; /* Spacing for better readability */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Enhances interactivity */
+}
+
+@media (max-width: 768px) {
+    .footer-content, .footer-links {
+        text-align: center; /* Center-aligns content on smaller screens */
+        display: block;
+    }
+}

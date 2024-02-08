@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontario Legislative Assembly Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Ontario_Legislative_Assembly_arms.jpg/255px-Ontario_Legislative_Assembly_arms.jpg" alt="Legislative Assembly of Ontario Logo">
+            <span>Legislative Assembly of Ontario</span>
+        </div>
+        <div class="navbar-links">
+            <a href="#">Members</a>
+            <a href="#">Legislative Business</a>
+            <a href="#">Get Involved</a>
+            <a href="#">Visit and Learn</a>
+            <button class="search-button">&#128269;</button> 
+        </div>
+    </nav>
+    <div class="container">
+        <h2>At the Legislative Assembly of Ontario, your concern matters!        
+        </h2>
+        <h3>Leave your feedback</h3>
+        <form id="feedbackForm" class="feedback-form">
+            <input type="text" id="userName" placeholder="Your Name" required />
+            <textarea id="userFeedback" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <h1>Latest Feedbacks</h1>
+        <div id="feedbackList" class="feedback-list"></div>
+    </div>
+    <footer class="site-footer">
+    <div class="footer-content">
+        <p>© 2024 Legislative Assembly of Ontario. All rights reserved.</p>
+        <p>Contact Us: <a href="mailto:info@mockup.ca">info@mockup.ca</a></p>
+    </div>
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Use</a> |
+        <a href="#">Accessibility</a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
