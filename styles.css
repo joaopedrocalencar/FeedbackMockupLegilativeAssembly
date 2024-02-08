@@ -127,3 +127,32 @@ body, html {
         display: block;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-logo, .navbar-links {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-logo img {
+        margin-bottom: 10px; /* Adds space between the logo and the navbar links on small screens */
+    }
+
+    .navbar-links {
+        flex-direction: column;
+    }
+
+    .navbar-links a, .search-button {
+        margin: 5px 0; /* Reduces margin for a tighter fit */
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    .search-button {
+        padding: 5px 10px; /* Adjust padding to fit smaller screens */
+    }
+}
